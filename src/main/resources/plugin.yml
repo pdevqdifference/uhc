@@ -1,0 +1,14 @@
+name: UHC
+main: dev.pdevqdifference.uhc.UhcPlugin
+version: 1.0.0
+author: pdevqdifference
+api-version: 1.8
+commands:
+  uhc:
+    description: Comando principal de UHC
+    usage: /uhc <start|stop|status|reload>
+    permission: uhc.admin
+permissions:
+  uhc.admin:
+    default: op
+

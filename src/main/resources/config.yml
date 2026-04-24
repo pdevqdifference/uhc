@@ -1,0 +1,19 @@
+# Tiempo de gracia (segundos) sin PVP
+grace-period-seconds: 120
+
+# Rango para scatter (radio en bloques desde el spawn del mundo)
+scatter-radius: 1000
+
+# Heal al iniciar (true = cura y alimenta a todos al start)
+start-heal: true
+
+# Desactivar regeneración natural (UHC clásico)
+disable-natural-regen: true
+
+# Border inicial/final y tiempo de shrink
+world-border:
+  enabled: true
+  initial-size: 2000
+  final-size: 200
+  shrink-seconds: 900
+
