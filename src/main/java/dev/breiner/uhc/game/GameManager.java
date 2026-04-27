@@ -1,6 +1,6 @@
-package dev.varga.uhc.game;
+package dev.breiner.uhc.game;
 
-import dev.varga.uhc.UhcPlugin;
+import dev.breiner.uhc.UhcPlugin;
 import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitTask;
@@ -66,6 +66,12 @@ public final class GameManager {
 
     public Set<UUID> getAliveSnapshot() {
         return new HashSet<>(alive);
+    }
+
+    public void revive(Player player) {
+        if (player == null) return;
+        alive.add(player.getUniqueId());
+        preparePlayer(player);
     }
 
     public void start() {

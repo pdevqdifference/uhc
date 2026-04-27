@@ -1,6 +1,6 @@
-package dev.varga.uhc.listener;
+package dev.breiner.uhc.listener;
 
-import dev.varga.uhc.game.GameManager;
+import dev.breiner.uhc.game.GameManager;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;

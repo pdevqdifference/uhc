@@ -1,14 +1,16 @@
 name: UHC
-main: dev.varga.uhc.UhcPlugin
+main: dev.breiner.uhc.UhcPlugin
 version: 1.0.0
 author: pdevqdifference
 api-version: 1.8
 commands:
   uhc:
     description: Comando principal de UHC
-    usage: /uhc <start|stop|status|reload>
+    usage: /uhc <start|stop|status|reload|scenario|host|config|help>
     permission: uhc.admin
 permissions:
   uhc.admin:
+    default: op
+  uhc.host:
     default: op
 

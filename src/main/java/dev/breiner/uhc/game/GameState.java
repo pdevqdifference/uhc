@@ -1,4 +1,4 @@
-package dev.varga.uhc.game;
+package dev.breiner.uhc.game;
 
 public enum GameState {
     LOBBY,

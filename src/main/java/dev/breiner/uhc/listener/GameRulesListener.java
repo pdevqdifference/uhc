@@ -1,6 +1,6 @@
-package dev.varga.uhc.listener;
+package dev.breiner.uhc.listener;
 
-import dev.varga.uhc.game.GameManager;
+import dev.breiner.uhc.game.GameManager;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.EventPriority;
 import org.bukkit.event.Listener;

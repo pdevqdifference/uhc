@@ -7,7 +7,7 @@ scatter-radius: 1000
 # Heal al iniciar (true = cura y alimenta a todos al start)
 start-heal: true
 
-# Desactivar regeneración natural (UHC clásico)
+# Desactivar regeneración natural
 disable-natural-regen: true
 
 # Border inicial/final y tiempo de shrink
@@ -16,4 +16,9 @@ world-border:
   initial-size: 2000
   final-size: 200
   shrink-seconds: 900
+
+scenarios:
+  cutclean: false
+  timber: false
+  hasteyboys: false
 
