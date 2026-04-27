@@ -1,5 +1,5 @@
 name: UHC
-main: dev.pdevqdifference.uhc.UhcPlugin
+main: dev.varga.uhc.UhcPlugin
 version: 1.0.0
 author: pdevqdifference
 api-version: 1.8

@@ -1,6 +1,6 @@
-package dev.pdevqdifference.uhc.game;
+package dev.varga.uhc.game;
 
-import dev.pdevqdifference.uhc.UhcPlugin;
+import dev.varga.uhc.UhcPlugin;
 import org.bukkit.*;
 import org.bukkit.entity.Player;
 import org.bukkit.scheduler.BukkitTask;

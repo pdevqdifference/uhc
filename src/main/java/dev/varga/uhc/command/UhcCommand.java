@@ -1,8 +1,8 @@
-package dev.pdevqdifference.uhc.command;
+package dev.varga.uhc.command;
 
-import dev.pdevqdifference.uhc.UhcPlugin;
-import dev.pdevqdifference.uhc.game.GameManager;
-import dev.pdevqdifference.uhc.game.GameState;
+import dev.varga.uhc.UhcPlugin;
+import dev.varga.uhc.game.GameManager;
+import dev.varga.uhc.game.GameState;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
@@ -21,7 +21,7 @@ public final class UhcCommand implements CommandExecutor {
     @Override
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
         if (args.length == 0) {
-            sender.sendMessage(ChatColor.YELLOW + "Uso: /uhc <start|stop|status|reload>");
+            sender.sendMessage(ChatColor.YELLOW + "Uso correcto: /uhc start/stop/reload/status ");
             return true;
         }
 

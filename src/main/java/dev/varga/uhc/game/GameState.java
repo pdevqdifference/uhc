@@ -1,4 +1,4 @@
-package dev.pdevqdifference.uhc.game;
+package dev.varga.uhc.game;
 
 public enum GameState {
     LOBBY,

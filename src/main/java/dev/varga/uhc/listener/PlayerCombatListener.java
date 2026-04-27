@@ -1,6 +1,6 @@
-package dev.pdevqdifference.uhc.listener;
+package dev.varga.uhc.listener;
 
-import dev.pdevqdifference.uhc.game.GameManager;
+import dev.varga.uhc.game.GameManager;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;

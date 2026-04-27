@@ -1,10 +1,10 @@
-package dev.pdevqdifference.uhc;
+package dev.varga.uhc;
 
-import dev.pdevqdifference.uhc.command.UhcCommand;
-import dev.pdevqdifference.uhc.game.GameManager;
-import dev.pdevqdifference.uhc.listener.GameRulesListener;
-import dev.pdevqdifference.uhc.listener.PlayerCombatListener;
-import dev.pdevqdifference.uhc.listener.PlayerDeathListener;
+import dev.varga.uhc.command.UhcCommand;
+import dev.varga.uhc.game.GameManager;
+import dev.varga.uhc.listener.GameRulesListener;
+import dev.varga.uhc.listener.PlayerCombatListener;
+import dev.varga.uhc.listener.PlayerDeathListener;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
